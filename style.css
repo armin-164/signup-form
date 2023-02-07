@@ -22,7 +22,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     height: 185px;
     width: 475px;;
-    bottom:400px;
+    bottom:358px;
     font-size: 75px;;
     font-family: "norse", sans-serif;
     font-weight:bold;
@@ -35,4 +35,21 @@ body {
     height: 150px;
 }
 
+.form-p-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+    width: 890px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+.form-p {
+    font-size: 25px;
+    font-family: "norse";
+    font-weight: bold;
+}
+
+.form-p > span {
+    word-spacing:3px;
+}
