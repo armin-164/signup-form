@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
+body {
+    margin: 0;
+}
+
+
+.fullcontainer {
+    display: flex;
+}
+
+.left-side {
+    position: relative;
+}
+
+.left-side > img {
+    width: 475px;
+}
+.overlaytext {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 185px;
+    width: 475px;;
+    bottom:400px;
+    font-size: 75px;;
+    font-family: "norse", sans-serif;
+    font-weight:bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlaytext > img {
+    height: 150px;
+}
+
+
