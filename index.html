@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <div class="fullcontainer">
@@ -51,16 +52,16 @@
                     <div class="form-row">
                         <div class="form">
                             <label for="user_password">Password</label>
-                            <input type="password" name="user_password" id="user_password" class="error">
+                            <input type="password" name="user_password" id="user_password" class="error" required>
                         </div>
                         <div class="form">
                             <label for="user_password">Confirm Password</label>
-                            <input type="password" name="user_password" id="confirm_password" class="error">
+                            <input type="password" name="user_password" id="confirm_password" class="error" required>
                         </div>
                     </div>
             </div>
             <div class="buttoncontainer">
-                <button type="reset" class="signupbutton"> Create Account</button>
+                <button type="button" class="signupbutton"> Create Account</button>
                 <p class="login-p">Already have an account? <a href="">Log in</a></p>
             </div>
         </form>
